@@ -1,6 +1,7 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Login from "./LoginForm";
+import Register from "./RegisterForm"; // Ensure the file exists at this path or update the path if necessary
 import Dashboard from "./components/Dashboard";
 
 <Router>

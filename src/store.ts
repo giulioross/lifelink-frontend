@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import utenteReducer from "./redux/utenteSlice";
+import utenteReducer from "./utenteSlice";
 import { useDispatch } from "react-redux";
 
 export const store = configureStore({
